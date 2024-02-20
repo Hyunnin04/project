@@ -22,7 +22,4 @@ Route::get('/', function () {
 Route::get('/about', function () 
 { return 'About Us';
 }); 
-Route::get('/contact', function ()
- { return 'Contact Us'; 
-});
 Route::get('/contact/{name}', function ($name) { return 'Contact ' . $name; });
