@@ -25,3 +25,4 @@ Route::get('/about', function ()
 Route::get('/contact', function ()
  { return 'Contact Us'; 
 });
+Route::get('/contact/{name}', function ($name) { return 'Contact ' . $name; });
